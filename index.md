@@ -1,71 +1,37 @@
-<div id="ace-content" class="ace-container-shift">
-    <div class="ace-container">
-        <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
-            <div class="ace-nav-cont">
-                <div id="ace-nav-scroll">
-                    <nav id="ace-nav" class="ace-nav">
-                        <ul class="clear-list">
-                            <li>
-                              <a href="index.html" data-tooltip="Home"><img class="avatar avatar-42" src="{{ '/styles/img/show-star.png' | prepend: site.baseurl }}" alt=""></a>
-                            </li>
-                            <li>
-                              <a href="#basic_info" data-tooltip="Information"><span class="ace-icon ace-icon-home"></span></a>
-                            </li>
-                            <li>
-                              <a href="#profetional" data-tooltip="Skills"><span class="ace-icon ace-icon-experience"></span></a>
-                            </li>
+## Welcome to GitHub Pages
 
-                            <li>
-                              <a href="#education" data-tooltip="Education Background"><span class="ace-icon ace-icon-portfolio"></span></a>
-                            </li>
-                            
-                            <li>
-                              <a href="#experience" data-tooltip="Experiences"><span class="ace-icon ace-icon-references"></span></a>
-                            </li>
-                            <li>
-                              <a href="#certification" data-tooltip="Competitions"><span class="ace-icon ace-icon-blog"></span></a>
-                            </li>
-                            <li>
-                              <a href="#personal_project" data-tooltip="Projects"><span class="ace-icon ace-icon-snowflake-o"></span></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+You can use the [editor on GitHub](https://github.com/SYMSCA/symsca.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-                <div id="ace-nav-tools" class="hidden">
-                    <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-                    <button id="ace-nav-arrow" class="clear-btn">
-                        <span class="ace-icon ace-icon-chevron-thin-down"></span>
-                    </button>
-                </div>
-            </div>
+### Markdown
 
-            <!-- <div class="ace-nav-btm"></div> -->
-        </div><!-- .ace-nav-wrap -->
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-        <div class="ace-paper-stock">
-            <main class="ace-paper clearfix">
-                <div class="ace-paper-cont clear-mrg">
-                    <!-- START: PAGE CONTENT -->
-                    <div class="padd-box clear-mrg">
+```markdown
+Syntax highlighted code block
 
-                    {% include resumer_01-basic.html %}
+# Header 1
+## Header 2
+### Header 3
 
-                    {% include resumer_02-profetional.html %}
+- Bulleted
+- List
 
-                    {% include resumer_03-education.html %}
+1. Numbered
+2. List
 
-                    {% include resumer_04-experience.html %}
+**Bold** and _Italic_ and `Code` text
 
-                    {% include resumer_05-certification.html %}
+[Link](url) and ![Image](src)
+```
 
-                    {% include resumer_06-personal_project.html %}
-                        
-                    </div><!-- .padd-box -->
-                <!-- END: PAGE CONTENT -->
-                </div><!-- .ace-paper-cont -->
-            </main><!-- .ace-paper -->
-        </div><!-- .ace-paper-stock -->
-    </div><!-- .ace-container -->
-</div><!-- #ace-content -->
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SYMSCA/symsca.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
